@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 31
+names: ['end_speed_limit_40', 'height_limit_5_2m', 'height_limit_5_5m', 'hospital', 'keep_right', 'no_entry', 'no_honking', 'no_motorcycles', 'no_u_turn', 'offset_road_junction_left_right', 'parking_prohibited', 'pedestrian_crossing', 'priority_junction', 'roundabout_ahead', 'school_zone', 'sharp_curve_left', 'side_road_junction_left', 'side_road_junction_right', 'side_road_junctions_right', 'slow_down', 'speed_limit_100', 'speed_limit_30', 'speed_limit_40', 'speed_limit_60', 'speed_limit_70', 'speed_limit_80', 't_junction_ahead', 'turn_right', 'two_way_traffic_ahead', 'workers_ahead', 'direction_sign']
+
+roboflow:
+  workspace: nhim-dara
+  project: cambodia-traffic-signs-ko1th
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/nhim-dara/cambodia-traffic-signs-ko1th/1

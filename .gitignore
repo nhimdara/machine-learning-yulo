@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+road_detection_model/__pycache__/
+road_detection_model/runs/
+runs/
+.DS_Store
+Thumbs.db
+*.log
+scratch/
